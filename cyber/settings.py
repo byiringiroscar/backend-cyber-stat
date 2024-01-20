@@ -26,13 +26,7 @@ SECRET_KEY = 'django-insecure-&s^y6a&jzy)*h130i^xo70de##ip9=_g0k$!kihbm3@m0sy+f^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'cyberspector.onrender.com',
-    'localhost',  # if you access locally without HTTPS
-    'cyberspector.vercel.app',
-    'http://127.0.0.1:3000'
-]
+ALLOWED_HOSTS = ['*']
 
 
 
