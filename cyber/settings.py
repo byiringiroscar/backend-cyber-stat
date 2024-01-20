@@ -124,6 +124,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://cyberspector.vercel.app/information",
     "https://cyberspector.onrender.com",
     "https://cyberspector.onrender.com/information",
+    "*",
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
