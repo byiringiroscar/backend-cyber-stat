@@ -124,14 +124,12 @@ USE_I18N = True
 
 USE_TZ = True
 
-# CORS_ALLOWED_ORIGINS = [
-#     "http://127.0.0.1:3000",
-#     "https://cyberspector.vercel.app",
-#     "https://cyberspector.vercel.app/information",
-#     "https://cyberspector.onrender.com",
-#     "https://cyberspector.onrender.com/information",
-#     "*",
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "https://example.com",
+    "https://sub.example.com",
+    "http://localhost:8080",
+    "http://127.0.0.1:3000",
+]
 
 # CORS_ALLOW_ALL_ORIGINS = True
 
