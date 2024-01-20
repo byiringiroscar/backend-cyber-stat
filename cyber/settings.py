@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-&s^y6a&jzy)*h130i^xo70de##ip9=_g0k$!kihbm3@m0sy+f^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://cyberspector.onrender.com', 'https://cyberspector.vercel.app']
 
 
 # Application definition
@@ -127,7 +127,29 @@ CORS_ALLOWED_ORIGINS = [
     "*",
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_ALL_ORIGINS = True
+
+CORS_ALLOWED_HEADERS = [
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+]
+
+CORS_ALLOW_METHODS = [
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+]
+
 
 
 
