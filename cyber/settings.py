@@ -31,6 +31,7 @@ ALLOWED_HOSTS = [
     'cyberspector.onrender.com',
     'localhost',  # if you access locally without HTTPS
     'cyberspector.vercel.app',
+    'http://127.0.0.1:3000'
 ]
 
 
