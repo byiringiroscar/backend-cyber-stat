@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-&s^y6a&jzy)*h130i^xo70de##ip9=_g0k$!kihbm3@m0sy+f^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://cyberspector.onrender.com', 'https://cyberspector.vercel.app', 'http://127.0.0.1:3000']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -118,14 +118,14 @@ USE_I18N = True
 
 USE_TZ = True
 
-CORS_ALLOWED_ORIGINS = [
-    "http://127.0.0.1:3000",
-    "https://cyberspector.vercel.app",
-    "https://cyberspector.vercel.app/information",
-    "https://cyberspector.onrender.com",
-    "https://cyberspector.onrender.com/information",
-    "*",
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "http://127.0.0.1:3000",
+#     "https://cyberspector.vercel.app",
+#     "https://cyberspector.vercel.app/information",
+#     "https://cyberspector.onrender.com",
+#     "https://cyberspector.onrender.com/information",
+#     "*",
+# ]
 
 # CORS_ALLOW_ALL_ORIGINS = True
 
