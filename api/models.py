@@ -1,13 +1,20 @@
 from django.db import models
 import json
 import os
-from django.core.exceptions import ValidationError
+import uuid
+import uuid as uuid_lib
 
 
 # Create your models here.
 
 
 class Information(models.Model):
+    id = models.UUIDField(
+        default=uuid.uuid4,
+        unique=True,
+        primary_key=True,
+        editable=False
+    )
     country = models.CharField(max_length=250)
     flag = models.URLField()
     country_code = models.CharField(max_length=250)
