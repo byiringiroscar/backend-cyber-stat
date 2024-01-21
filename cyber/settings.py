@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "corsheaders",
     'api.apps.ApiConfig',
     'rest_framework',
+    'contact'
 ]
 
 MIDDLEWARE = [
