@@ -23,7 +23,7 @@ class InformationRetrieveUpdateDeleteAPIView(RetrieveUpdateDestroyAPIView):
 
 @api_view(['GET', ])
 def get_country(request, country):
-    country = str(country)
+    country = str(country.lower())
     try:
         country = Information.objects.filter(country=country)
     except InformationSerializer.Meta.model.DoesNotExist:
